@@ -15,6 +15,7 @@ export class DivTwo extends Component {
     return (
       <div>
         <DivThree sibling2={this.props.sibling1} />
+
         <DivThree sibling2={this.props.sibling1} />
       </div>
     );
